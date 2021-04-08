@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Manage landing page</title>
 
@@ -16,20 +18,33 @@
 </head>
 <body>
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+<header class="wrapper">
 
-  Get Started
+  <nav class="nav__mobile">
+    <img src="/images/logo.svg" alt="logo" class="logo">
+    <img src="/images/icon-hamburger.svg" alt="menu" class="hamburger">
+  </nav>
 
-  Bring everyone together to build better products.
+  <nav class="nav__desktop">
+    <ul>
+      <li>Pricing</li>
+      <li>Product</li>
+      <li>About Us</li>
+      <li>Careers</li>
+      <li>Community</li>
+    </ul>
+  </nav>
 
-  Manage makes it simple for software teams to plan day-to-day 
-  tasks while keeping the larger team goals in view.
+  <button class="start__nav">Get Started</button>
 
-  Get Started
+  <div class="container sm4 header__content">
+    <h1>Bring everyone together to build better products.</h1>
+    <p>Manage makes it simple for software teams to plan day-to-day 
+      tasks while keeping the larger team goals in view.</p>
+    <button class="start">Get Started</button>
+  </div>
+
+</header>
 
   What’s different about Manage?
 
@@ -95,7 +110,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.instagram.com/niklas.design/">Niklas Haukenfrers</a>.
   </div>
 </body>
 </html>

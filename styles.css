@@ -1,0 +1,41 @@
+/* Color Variables */
+
+:root {
+  --red-color: hsl(12, 88%, 59%);
+  --blue-color: hsl(228, 39%, 23%);
+  --blue-muted-color: hsl(227, 12%, 61%);
+  --blue-dark-color: hsl(233, 12%, 13%);
+  --red-pale-color: hsl(13, 100%, 96%);
+  --gray-light-color: hsl(0, 0%, 98%);
+}
+
+/* Typography Variables */
+
+:root {
+  --font-light: 400;
+  --font-regular: 500;
+  --font-bold: 700;
+}
+
+/* Mobile */
+
+.nav__mobile {
+  margin: 3.5rem 2rem;
+}
+
+.logo {
+  max-width: 10rem;
+}
+
+.hamburger {
+  max-width: 23px;
+  position: absolute;
+  right: 2rem;
+  top: 3rem;
+}
+
+@media screen and (max-width:468px) {
+  .nav__desktop {
+    display: none;
+  }
+}
