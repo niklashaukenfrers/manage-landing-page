@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
 /* Color Variables */
 
 :root {
@@ -19,6 +21,16 @@
 
 /* Mobile */
 
+.header__mobile {
+  height: 100vh;
+  background:hsl(0, 0%, 98%);
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-position-x: 5rem;
+  background-position-y: -14rem;
+}
+
 .nav__mobile {
   margin: 3.5rem 2rem;
 }
@@ -34,8 +46,173 @@
   top: 3rem;
 }
 
+.intro__mobile {
+  padding: 0rem 1.5rem;
+}
+
+.header__content {
+  text-align: center;
+  padding: 0rem 2.5rem 12rem 2.5rem;
+  background-image: url(/images/bg-tablet-pattern.svg);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-x: 21rem;
+  background-position-y: 13rem;
+}
+
+.main__content {
+  text-align: center;
+  background-color: var(--gray-light-color);
+  padding: 0rem 2.5rem 5rem 2.5rem;
+}
+
+.main__list {
+  margin-left: 2rem;
+}
+
+.main__testimonial {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.main__simplify {
+  text-align: center;
+  background-color: var(--red-color);
+  background-image: url(/images/bg-simplify-section-mobile.svg);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position-y: 4rem;
+}
+
+h1 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--blue-color);
+  font-weight: var(--font-bold);
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--blue-color);
+  font-weight: var(--font-bold);
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--blue-color);
+  font-weight: var(--font-bold);
+  font-size: 16px;
+  padding: 0.75rem 0rem 0.9rem 7rem;
+  margin-bottom: 1rem;
+  background-color: var(--red-pale-color);
+  border-radius: 50px 0px 0px 50px;
+}
+
+h5 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--blue-color);
+  font-weight: var(--font-bold);
+  font-size: 16px;
+}
+
+.main__list-number {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--gray-light-color);
+  font-weight: var(--font-bold);
+  font-size: 18px;
+  background: var(--red-color);
+  padding: 0.5rem 2rem 1rem 2rem;
+  width: 6rem;
+  border-radius: 50px;
+  display: inline-block;
+  float: left;
+}
+
+.main__list-copy {
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+
+.main__testimonial-heading {
+  margin-bottom: 2.5rem;
+
+}
+
+.main__testimonial-content {
+  background-color: var(--gray-light-color);
+  padding: 6rem 3rem 4rem 3rem;
+  margin-top: -3rem;
+}
+
+.avatar {
+  height: 6rem;
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.main__testimonial-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  border: 1px solid var(--red-color);
+  background: none;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.dot-fill {
+  background: var(--red-color);
+}
+
+.main__simplify-content {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.main__simplify-heading {
+  color: var(--gray-light-color);
+}
+
+.start-reversed {
+  background: var(--gray-light-color);
+  color: var(--red-color);
+  box-shadow: 0 8px 10px -6px gray;
+}
+
+p {
+  font-family: 'Be Vietnam', sans-serif;
+  color: var(--blue-muted-color);
+  font-weight: var(--font-light);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1.25rem 3.5rem;
+  margin-top: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  color:hsl(0, 0%, 98%);
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: var(--font-bold);
+  background-color: var(--red-color);
+  box-shadow: 0 8px 10px -6px var(--red-color);
+}
+
 @media screen and (max-width:468px) {
   .nav__desktop {
+    display: none;
+  }
+  .start__nav {
     display: none;
   }
 }
